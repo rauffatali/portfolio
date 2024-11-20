@@ -1,0 +1,73 @@
+* {
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--secondary-bg-color);
+}
+
+html {
+  /* 10px = (100/16) * 10 = 62.5% */
+  font-size: 62.5%;
+}
+
+a {
+  color: var(--primary-accent-color);
+  position: relative;
+}
+
+.section {
+  padding: 3rem 15rem;
+}
+
+.sub-section {
+  padding: 3rem 20rem;
+}
+
+.section-title {
+  font-size: 3.8rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  color: var(--primary-accent-color);
+}
+
+.tooltip {
+  color: var(--primary-accent-color);
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+mark {
+  color: var(--primary-accent-color);
+}
+
+.secondary-txt {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: var(--secondary-text-color-inverted);
+}
+
+/* Underline effect */
+
+.line-effect::after {
+  content: "";
+  display: inline-block;
+  background: var(--primary-accent-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0px;
+  height: 1px;
+  transition: var(--transition-three-ms);
+}
+
+.line-effect:hover::after {
+  width: 100%;
+}
