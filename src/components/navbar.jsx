@@ -9,7 +9,14 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center px-6 py-4">
         {/* Logo */}
         <div className="text-2xl font-bold">
-          MyPortfolio
+          < Link 
+            to="about"
+            smooth={true}
+            duration={500}
+            className="cursor-pointer hover:text-blue-400"
+          >
+            Rauf Fatali
+          </Link>
         </div>
 
         {/* Desktop Navigation */}
@@ -61,7 +68,7 @@ const Navbar = () => {
 
       {/* Mobile Dropdown */}
       {isOpen && (
-        <div className="bg-gray-700 md:hidden">
+        <div className="bg-white-700 md:hidden">
           <Link
             to="about"
             smooth={true}
