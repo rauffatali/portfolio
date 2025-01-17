@@ -1,8 +1,8 @@
 {
-  "homepage": "https://rauffatali.github.io",
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rauffatali.github.io",
   "dependencies": {
     "@mediapipe/face_detection": "^0.4.1646425229",
     "@react-spring/three": "^9.7.5",
@@ -25,10 +25,10 @@
     "web-vitals": "^4.2.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
