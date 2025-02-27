@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rauffatali.github.io",
+  "homepage": "https://rauffatali.github.io/rauffatali.github.io",
   "dependencies": {
     "@mediapipe/face_detection": "^0.4.1646425229",
     "@react-spring/three": "^9.7.5",
